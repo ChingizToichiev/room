@@ -1,0 +1,713 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  height: 12vh;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+header .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.basketWrapper {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+main {
+  margin: 48px 5% 0 5%;
+}
+
+main img {
+  width: 100%;
+}
+
+.deisgnBlock {
+  height: 400px;
+}
+
+.deisgnBlock .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.deisgnBlock .container h1 {
+  width: 45%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1a1a1a;
+}
+
+.deisgnBlock .container p {
+  width: 55%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #aaaaaa;
+}
+
+.rooms {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.rooms .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.rooms .container div {
+  width: 48%;
+  margin-bottom: 30px;
+}
+
+.rooms .container div img {
+  width: 100%;
+}
+
+.rooms .container div p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  color: #1a1a1a;
+}
+
+.descriptionHeader {
+  height: 250px;
+}
+
+.descriptionHeader h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.descriptionHeader p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #4a4a4a;
+  margin-top: 20px;
+}
+
+.brandsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.brandsWrapper div {
+  width: 16%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.slider {
+  background-image: url("./images/font.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.slider div {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.simpledetails {
+  margin-top: 119px;
+}
+
+.simpledetails h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color: #1a1a1a;
+}
+
+.simpledetails button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #46856e;
+  padding: 23px 5px;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+.detailsInfo {
+  margin-top: 45px;
+}
+
+.detailsInfo .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailsInfo .container>div {
+  width: calc(33% - 67px);
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.detailsInfo .container>div div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.detailsInfo h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #1a1a1a;
+}
+
+.detailsInfo p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #aaaaaa;
+}
+
+.webStars {
+  margin-top: 230px;
+  height: 700px;
+}
+
+.webStars .container {
+  background: url(./images/font2.jpg);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 120px 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.webStars p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.webStars button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.workInfo {
+  margin: 21% 23.5%;
+}
+
+.workInfo h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 52px;
+}
+
+.workInfo h1:first-child {
+  color: #aaaaaa;
+}
+
+.workInfo h1:last-child {
+  color: #000000;
+  margin-top: 25px;
+}
+
+.facilities {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.facilitiesImage {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.facilitiesImage img {
+  width: 100%;
+}
+
+.facilitiesImage1 img {
+  width: 100%;
+}
+.facilitiesImage2 img {
+  width: 100%;
+}
+
+.facilitiesTitle {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facilitiesTitle h3 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.facilitiesTitle p {
+  color: #AAAAAA;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.facilities1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-top: 64px;
+}
+
+.facilitiesImage1 {
+  width: 53%;
+}
+
+.facilitiesTitle1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facilitiesTitle1 h3 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.facilitiesTitle1 p {
+  color: #AAAAAA;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.facilities2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.facilitiesImage2 {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.facilitiesTitle2 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facilitiesTitle2 h3 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.facilitiesTitle2 p {
+  color: #AAAAAA;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.imgFont6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 288px ;
+}
+.imgFont6 img{
+  width: 100%;
+}
+.lastfont {
+  width: 75%;
+  height: 465px;
+  background-color: #F2F2F2;
+  margin-left: 180px;
+  margin-top: 286px;
+}
+
+.days {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  font-size: 44px;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 90px;
+}
+
+.services p {
+  padding-top: 20px;
+  font-size: 12px;
+  color: #1A1A1A;
+}
+
+.lastbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.lastbutton button {
+  background-color: #46856E;
+  width: 146px;
+  height: 50px;
+  color: #FFFFFF;
+  font-size: 12px;
+  cursor: pointer;
+  border: none;
+}
+
+.footer {
+  background-color: #2B2B2B;
+  display: flex;
+  justify-content: space-around;
+  background-color: #2B2B2B;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  margin-top: 79px;
+}
+
+.footer div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer p {
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.footer a,
+p {
+  color: #000000;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer .iconsInFooter {
+  display: block;
+}
+
+.footer input {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+  background: none;
+  padding: 15px;
+}
+
+.footer .checkbox {
+  width: 26px;
+  height: 26px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.footer .footerText {
+  margin-top: 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer .checkBoxContainer {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 1440px) {
+  .menuImg {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+    .menuImg {
+      display: none;
+    }
+    .basketWrapper {
+      gap: 20px;
+    }
+    .lastfont {
+      width: 65%;
+    }
+}
+@media (max-width: 768px) {
+  .navLinks {
+    gap: 20px;
+  }
+  .basketWrapper {
+    gap: 10px;
+  }
+  .deisgnBlock .container h1 {
+    font-size: 40px;
+  }
+  .deisgnBlock .container p {
+    font-size: 22px;
+  }
+  .rooms .container div p {
+    font-size: 18px;
+  }
+  .rooms {
+    margin-bottom: 60px;
+  }
+  .brandsWrapper {
+    margin-top: -50px;
+    justify-content: center;
+  }
+  .brandsWrapper div {
+     width: 25%;
+  }
+  .slider {
+    margin-top: 30px;
+  }
+  .simpledetails {
+    margin-top: 80px;
+  }
+  .simpledetails h1 {
+    font-size: 40px;
+  }
+  .detailsInfo .container div {
+    gap: 17px;
+  }
+  .webStars p {
+    font-size: 21px;
+  }
+  .workInfo {
+    margin: 10%;
+  }
+  .workInfo h1 {
+    font-size: 35px;
+  }
+  .facilities {
+    gap: 15px;
+  }
+  .facilitiesTitle h3 {
+    font-size: 25px;
+  }
+  .facilitiesTitle p {
+    max-width: 190px;
+  }
+  .facilitiesTitle1 h3 {
+    font-size: 25px;
+  }
+  .facilitiesTitle1 p {
+    max-width: 190px;
+  }
+  .facilitiesTitle2 h3 {
+    font-size: 25px;
+  }
+  .facilitiesTitle2 p {
+    max-width: 190px;
+  }
+  .imgFont6 {
+    margin-top: 100px;
+  }
+  .lastfont {
+    margin-left: 130px;
+    margin-top: 80px;
+    padding: 20px 20px 20px 20px;
+  }
+  .lastfont div h3 {
+    font-size: 40px;
+  }
+  .footer {
+    flex-direction: column;
+    padding: 20px 0 20px 30px
+  }
+ .footerLogo {
+  display: none;
+ }
+ .contactForm {
+  max-width: 280px;
+ }
+ .footer .checkBoxContainer {
+  gap: 30px;
+ }
+}
+@media (max-width: 425px) {
+  header > .container div a {
+    display: none
+  }
+  .basketWrapper img {
+    display: none;
+  }
+  .menuImg {
+    display: block;
+  }
+  .deisgnBlock .container h1 {
+    font-size: 25px;
+  }
+  .deisgnBlock .container p {
+    font-size: 15px;
+  }
+  .rooms .container div p {
+    font-size: 15px;
+  }
+  .rooms {
+    margin-bottom: 35px;
+  }
+  .descriptionHeader h1 {
+    font-size: 35px;
+  }
+  .brandsWrapper {
+    margin-top: -50px;
+    justify-content: center;
+    gap: 42px;
+  }
+  .brandsWrapper div {
+     width: 25%;
+  }
+  .simpledetails h1 {
+    font-size: 30px;
+  }
+  .detailsInfo .container div img {
+    width: 170%;
+  }
+  .detailsInfo h1 {
+    font-size: 20px;
+  }
+  .detailsInfo p {
+    font-size: 13px;
+  }
+  .webStars {
+    margin-top: 350px;
+  }
+  .webStars .container {
+    padding: 80px 40px;
+  }
+  .webStars .container p {
+    font-size: 18px;
+  }
+  .webStars .container button {
+    font-size: 15px;
+  }
+  .workInfo h1 {
+    font-size: 28px;
+  }
+  .facilities h3 {
+    font-size: 24px;
+  }
+  .facilities p {
+    font-size: 14px;
+  }
+  .facilities1 h3 {
+    font-size: 24px;
+  }
+  .facilities1 p {
+    font-size: 14px;
+  }
+  .facilities2 {
+    gap: 13px;
+  }
+  .facilities2 h3 {
+    font-size: 24px;
+  }
+  .facilities2 p {
+    font-size: 14px;
+  }
+  .lastfont {
+    margin-left: 80px;
+  }
+  .lastfont div h3 {
+    font-size: 25px;
+  }
+  .services p {
+    font-size: 9px;
+  }
+  .lastbutton button {
+    font-size: 10px;
+  }
+}
